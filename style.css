@@ -1,0 +1,84 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  box-sizing: border-box;
+}
+.navbar {
+  flex: 50%;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 18px;
+  color: #e5e7e8;
+}
+
+.navbar a {
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navbar img {
+  padding-bottom: 20px;
+}
+.header > h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+}
+.submit {
+  background-color: #3882f6;
+  font-size: 16px;
+  padding: 10px;
+}
+.header {
+  text-align: center;
+  flex: 50%;
+  color: #f9faf8;
+}
+.head {
+  display: flex;
+  background-color: #1f2937;
+  flex-wrap: wrap;
+}
+.blockquote {
+  text-align: center;
+  padding: 20px;
+  background-color: #e5e7e8;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  flex: 100%;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #1f2937;
+  flex: 100%;
+}
+.blue {
+  flex-direction: column;
+  flex: 100%;
+  justify-content: space-evenly;
+  background-color: #fff;
+}
+.inner {
+    flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  background-color: #3882f6;
+  flex: auto;
+}
+
+.sign-up-button {
+  flex: 30%;
+  position: sticky;
+  right:120px;
+  top: 615px;
+}
+
+.submit-1 {
+  border: 2px solid #fff;
+}
