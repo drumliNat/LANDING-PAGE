@@ -59,33 +59,45 @@
   flex: 100%;
 }
 .blue {
-    flex: 100%;
+  flex: 100%;
   justify-content: space-evenly;
   background-color: #fff;
 }
 .inner {
-  flex-direction: column;
   display: flex;
   margin: 60px;
   padding: 20px;
   background-color: #3882f6;
   flex: auto;
-  
 }
 
-.sign-up p{
+.sign-up  {
   flex: 50%;
-  justify-self: center;
-  align-self: flex-start;
-  text-align: left;
   padding: 20px;
+  align-content: center;
 }
-.sign-up-button p{
-  flex: 50%; 
-  text-align: right;
-  padding:20px; 
+.sign-up-button {
+  flex: 50%;
+  align-self: center;
+  text-align: center;
+  justify-self: center;
 }
 
 .submit-1 {
   border: 2px solid #fff;
+}
+
+.blocks {
+  flex: 100%;
+  background-color: #fff;
+  flex-direction: row;
+  justify-self: center;
+}
+.items {
+  border: 3px lightblue solid;
+  border-radius: 3px;
+  border-radius: 10px lightblue solid;
+  float: left;
+
+  text-align: center;
 }
